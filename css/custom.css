@@ -1,0 +1,97 @@
+:root {
+    --main: #13505E;
+}
+
+
+
+.btn-outline-first {
+    color: #13505E;
+    border-color: #13505E;
+    border-radius: 5px;
+}
+
+.btn-outline-first:hover {
+    color: #fff;
+    background-color: #13505E;
+    border-color: #13505E;
+}
+
+.btn-outline-first:focus, .btn-outline-first.focus {
+    box-shadow: 0 0 0 0.2rem rgb(26, 111, 130);
+}
+
+.btn-outline-first.disabled, .btn-outline-first:disabled {
+    color: #2b8499;
+    background-color: transparent;
+}
+
+.btn-outline-first:not(:disabled):not(.disabled):active, .btn-outline-first:not(:disabled):not(.disabled).active,
+.show > .btn-outline-first.dropdown-toggle {
+    color: #fff;
+    background-color: #206c7d;
+    border-color: #206c7d;
+}
+
+.btn-outline-first:not(:disabled):not(.disabled):active:focus, .btn-outline-first:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-first.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(45, 134, 153);
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.btn-outline-second {
+
+    color: #000000;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.btn-outline-second:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-outline-second:focus, .btn-outline-second.focus {
+    box-shadow: 0 0 0 0.2rem rgb(232, 232, 232);
+}
+
+.btn-outline-second.disabled, .btn-outline-second:disabled {
+    color: #e3e3e3;
+    background-color: transparent;
+}
+
+.btn-outline-second:not(:disabled):not(.disabled):active, .btn-outline-second:not(:disabled):not(.disabled).active,
+.show > .btn-outline-second.dropdown-toggle {
+    color: #fff;
+    background-color: rgb(255, 255, 255);
+    border-color: rgba(212, 212, 212, 0.57);
+}
+
+.btn-outline-second:not(:disabled):not(.disabled):active:focus, .btn-outline-second:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-second.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.69);
+}
+
+/*-------------------------------------------------------*/
+
+.bga {
+    position: absolute;
+    width: 270px;
+    height: auto;
+    left: 384px;
+    top: 99px;
+
+    background: #797979;
+    /* box-shadow */
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+    border-radius: 5px;
+}
+
+.smart {
+    width: 1140px;
+    height: 653px;
+}
+
