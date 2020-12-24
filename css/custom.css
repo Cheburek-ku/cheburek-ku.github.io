@@ -91,7 +91,14 @@
 }
 
 .smart {
-    width: 1140px;
-    height: 653px;
+    max-width: 1140px;
+    height: auto;
+    /*width: 1140px;
+    height: 653px;*/
 }
-
+.smart2 {
+    min-width: 150px;
+    max-width: 964px;
+    height: auto;
+    overflow: hidden;
+}
