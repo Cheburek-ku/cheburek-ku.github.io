@@ -1,0 +1,129 @@
+:root {
+    --main: #13505E;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.main {
+    color: var(--main);
+}
+
+.btn-outline-first {
+    color: #13505E;
+    border-color: #13505E;
+    border-radius: 5px;
+}
+
+.btn-outline-first:hover {
+    color: #fff;
+    background-color: #13505E;
+    border-color: #13505E;
+}
+
+.btn-outline-first:focus, .btn-outline-first.focus {
+    box-shadow: 0 0 0 0.2rem rgb(26, 111, 130);
+}
+
+.btn-outline-first.disabled, .btn-outline-first:disabled {
+    color: #2b8499;
+    background-color: transparent;
+}
+
+.btn-outline-first:not(:disabled):not(.disabled):active, .btn-outline-first:not(:disabled):not(.disabled).active,
+.show > .btn-outline-first.dropdown-toggle {
+    color: #fff;
+    background-color: #206c7d;
+    border-color: #206c7d;
+}
+
+.btn-outline-first:not(:disabled):not(.disabled):active:focus, .btn-outline-first:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-first.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgb(45, 134, 153);
+}
+
+/*----------------------------------------------------------------------------------------------*/
+
+.btn-outline-second {
+
+    color: #000000;
+    border-color: #fff;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.btn-outline-second:hover {
+    color: #fff;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.btn-outline-second:focus, .btn-outline-second.focus {
+    box-shadow: 0 0 0 0.2rem rgb(232, 232, 232);
+}
+
+.btn-outline-second.disabled, .btn-outline-second:disabled {
+    color: #e3e3e3;
+    background-color: transparent;
+}
+
+.btn-outline-second:not(:disabled):not(.disabled):active, .btn-outline-second:not(:disabled):not(.disabled).active,
+.show > .btn-outline-second.dropdown-toggle {
+    color: #000;
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+}
+
+.btn-outline-second:not(:disabled):not(.disabled):active:focus, .btn-outline-second:not(:disabled):not(.disabled).active:focus,
+.show > .btn-outline-second.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.69);
+}
+
+/*-------------------------------------------------------*/
+.main-h1 {
+    font-size: 5vw !important;
+}
+
+.mt-main {
+
+    margin-top: 5rem !important;
+}
+
+@media (min-width: 576px) {
+    #main {
+        text-align: center !important;
+    }
+}
+
+.mt-main {
+    margin-top: 5rem !important;
+}
+
+#about {
+    background-image: url(../img/bg_wave.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #0F0F0F;
+    margin: auto;
+    text-align: center;
+}
+
+#about h1 {
+    text-align: center !important;
+    margin-top: 10vw;
+}
+#about button {
+    font-size: 1rem;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+#about img {
+    text-align: center !important;
+    margin-top: 10vw;
+}
