@@ -127,3 +127,27 @@ body {
     text-align: center !important;
     margin-top: 10vw;
 }
+#screen-color {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#screen-color h1{
+    font-size: 2rem !important;
+    max-width: 755px;
+}
+#screen-color h4 {
+    max-width: 755px;
+}
+#review2 h2{
+    max-width: 755px;
+}
+#footer {
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+#footer h2 {
+    margin: 0;
+    padding: 0;
+}
