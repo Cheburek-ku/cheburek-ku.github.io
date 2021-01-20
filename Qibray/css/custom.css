@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'URWJansonW01-Bold';
-    src(/fonts/Qibray.ttf);
+    src: url(/fonts/Qibray.ttf);
 }
 :root {
     --main: #e79a47;
