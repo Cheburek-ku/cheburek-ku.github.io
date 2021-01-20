@@ -1,0 +1,40 @@
+:root {
+    --main: #e79a47;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+.color-main {
+    color: var(--main) !important;
+}
+.icon-color {
+    fill: var(--main);
+}
+#main a{
+    color: var(--main);
+    font-weight: lighter;
+    font-family: Roboto;
+}
+.logotext {
+    user-select: none;
+    font-size: 7.5rem;
+    font-family: URWJansonW01-Bold;
+    font-weight: bolder;
+    margin-top: 25vh;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px white;
+}
+.page-holder {
+    min-height: 100vh;
+}
+
+.bg-cover {
+    background-size: cover !important;
+}
+.navbar-brand {
+    font-weight: bolder !important;
+    font-size: 2.25rem;
+    font-family: URWJansonW01-Bold !important;
+    color: var(--main) !important;
+}
